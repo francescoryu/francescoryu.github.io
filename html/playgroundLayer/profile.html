@@ -8,10 +8,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../css/index.css">
-    <script src="../../js/methods.js"></script>
+    <script src="../../js/profile.js"></script>
     <title>Profile</title>
 </head>
-<body onload="loadContent()">
+<body>
     <center>
         <div class="navBox">
             <img class="navImg" src="../../img/comp_logo.png" alt="">
@@ -38,8 +38,12 @@
         </div>
         <center>
             <div class="editUser">
-                <button class="userInfoButton" onclick="makeUserInfoEditable()">Edit</button>
-                <button class="userInfoButton" onclick="makeUserInfoUneditable()">Save</button>
+                <button id="editButton" class="userInfoButton" onclick="makeUserInfoEditable()">
+                    <img src="../../img/edit.png" class="imgEditUser" alt="">
+                </button>
+                <button id="saveButton" class="userInfoButton" onclick="makeUserInfoUneditable()">
+                    <img src="../../img/save.png" class="imgEditUser" alt="">
+                </button>
             </div>
         </center>
         

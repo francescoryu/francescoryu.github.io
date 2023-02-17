@@ -194,20 +194,13 @@ html {
     }
 
     .userInfoButton {
-        margin-top: 20px;
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-bottom: 20px;
-        font-size: 5vw;
-        text-align: center;
-        background-color: darkblue;
-        color: white;
-        border: 0;
-        border-radius: 40px;
-        padding-top: 2%;
-        padding-bottom: 2%;
-        padding-left: 10%;
-        padding-right: 10%;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        background-color: transparent;
+    }
+
+    .userInfoButton:disabled {
+        opacity: 0.3;
     }
   }
 
@@ -216,7 +209,6 @@ body {
     background-size: cover;                     
     background-repeat: no-repeat;
     background-position: center center;
-    height: 100%;
 }
 
 .checkBox {
