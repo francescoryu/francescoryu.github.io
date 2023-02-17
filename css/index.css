@@ -5,6 +5,118 @@ html {
     scroll-behavior: smooth;
 }
 
+@media only screen and (min-width: 600px) {
+    h1 {
+        font-size: 3vw;
+        margin-left: 3%;
+        margin-right: 0%;
+    }
+
+    legend {
+        font-size: 4vw;
+        text-align: center;
+    }
+
+    p {
+        margin-top: 10px;
+        margin-bottom: 0px;
+        font-size: 3vw;
+    }
+    
+    b {
+        font-size: 2vw;
+    }
+
+    input {
+        /*border: 2px solid black;*/
+        border: 0;
+        border-radius: 20px;
+        box-sizing: border-box;
+        font-size: 2vw;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        width: 100%;
+        background-color: #ebebeb;
+    }
+    
+    input:focus {
+        border-radius: 8px;
+        outline: none;
+    }
+
+    button {
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        font-size: 4vw;
+        background-color: darkblue;
+        color: white;
+        border: 0;
+        border-radius: 40px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 10vw;
+        margin-left: 3%;
+        margin-right: 0%;
+    }
+
+    legend {
+        font-size: 8vw;
+        text-align: center;
+    }
+
+    p {
+        margin-top: 10px;
+        margin-bottom: 0px;
+        font-size: 7vw;
+    }
+    
+    b {
+        font-size: 6vw;
+    }
+
+    input {
+        /*border: 2px solid black;*/
+        border: 0;
+        border-radius: 20px;
+        box-sizing: border-box;
+        font-size: 6vw;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        width: 100%;
+        background-color: #ebebeb;
+    }
+    
+    input:focus {
+        border-radius: 8px;
+        outline: none;
+    }
+
+    button {
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        font-size: 7vw;
+        background-color: darkblue;
+        color: white;
+        border: 0;
+        border-radius: 40px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+  }
+
 body {
     background: linear-gradient(to right bottom, #d1c6f3, #e9bcac);
     background: cover;
@@ -23,12 +135,6 @@ body {
 
 .aboutUs {
     margin-top: 5%;
-}
-
-h1 {
-    font-size: 10vw;
-    margin-left: 3%;
-    margin-right: 0%;
 }
 
 .navBox {
@@ -54,11 +160,6 @@ fieldset {
     padding: 10%;
 }
 
-legend {
-    font-size: 8vw;
-    text-align: center;
-}
-
 #page2 {
     display: none;
 }
@@ -75,56 +176,13 @@ legend {
     }
   }
 
-p {
-    margin-top: 10px;
-    margin-bottom: 0px;
-    font-size: 7vw;
-}
-
-b {
-    font-size: 6vw;
-}
-
 .marginText {
     margin-top: 6vw;
     margin-bottom: 6vw;
 }
 
-input {
-    /*border: 2px solid black;*/
-    border: 0;
-    border-radius: 20px;
-    box-sizing: border-box;
-    font-size: 6vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-    width: 100%;
-    background-color: #ebebeb;
-}
-
-input:focus {
-    border-radius: 8px;
-    outline: none;
-}
-
 .link {
     color: #311e42;
-}
-
-button {
-    margin-top: 20px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 20px;
-    font-size: 7vw;
-    background-color: darkblue;
-    color: white;
-    border: 0;
-    border-radius: 40px;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 10%;
-    padding-right: 10%;
 }
 
 button:active {
