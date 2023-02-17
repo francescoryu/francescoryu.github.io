@@ -107,6 +107,10 @@ html {
         font-size: 4vw;
     }
 
+    .userInfo {
+        font-size: 6vw;
+    }
+
     input {
         /*border: 2px solid black;*/
         border: 0;
@@ -187,7 +191,7 @@ body {
 
 .navBox {
     display: flex;
-    align-items: center;
+    text-align: center;
     background-color: transparent;
     margin-bottom: 10px;
     border-radius: 15px;
