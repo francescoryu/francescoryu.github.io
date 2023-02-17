@@ -11,7 +11,7 @@
     <script src="../../js/methods.js"></script>
     <title>Profile</title>
 </head>
-<body>
+<body onload="loadContent()">
     <center>
         <div class="navBox">
             <img class="navImg" src="../../img/comp_logo.png" alt="">
@@ -20,12 +20,29 @@
     </center>
     <fieldset class="animation">
         <legend>[USERNAME]</legend>
-        <b class="userInfo">Email: </b>
-        <b class="userInfo">[email]</b><br>
-        <b class="userInfo">Benutzername: </b>
-        <b class="userInfo">[username]</b><br>
-        <b class="userInfo">Punkte: </b>
-        <b class="userInfo">[points]</b>
+        <div class="userInfo">
+            <b>Email: </b>
+            <b id="email" class="marginUserInfo">[email]</b>
+        </div>
+        <div class="userInfo">
+            <b>Benutzername: </b>
+            <b id="username" class="marginUserInfo">[username]</b>
+        </div>
+        <div class="userInfo">
+            <b>Klasse: </b>
+            <b id="class" class="marginUserInfo">[class]</b>
+        </div>
+        <div class="userInfo">
+            <b>Punkte: </b>
+            <b id="points" class="marginUserInfo">[points]</b>
+        </div>
+        <center>
+            <div class="editUser">
+                <button class="userInfoButton" onclick="makeUserInfoEditable()">Edit</button>
+                <button class="userInfoButton" onclick="makeUserInfoUneditable()">Save</button>
+            </div>
+        </center>
+        
     </fieldset>
 </body>
 </html>

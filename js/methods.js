@@ -19,4 +19,18 @@ function switchVisible() {
 
 function showDiv() {
     document.getElementById("pwdReset").style.visibility = "visible";
-  }
+}
+
+function makeUserInfoEditable() {
+    document.getElementById("email").contentEditable = "true";
+    document.getElementById("username").contentEditable = "true";
+    document.getElementById("class").contentEditable = "true";
+    document.getElementById("points").contentEditable = "true";
+}
+
+function makeUserInfoUneditable() {
+    document.getElementById("email").contentEditable = "false";
+    document.getElementById("username").contentEditable = "false";
+    document.getElementById("class").contentEditable = "false";
+    document.getElementById("points").contentEditable = "false";
+}
