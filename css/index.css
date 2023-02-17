@@ -59,11 +59,35 @@ html {
         padding-left: 10%;
         padding-right: 10%;
     }
+
+    .arrowImg {
+        margin-top: 30%;
+        width: 20%;
+        height: 30%;
+    }
+      
+    .arrowImg:active {
+        margin-top: 30%;
+        width: 15%;
+        height: 15%;
+        scale: 0.9;
+    }
+      
+    .arrowBox {
+        text-align: center;
+        display: flex;
+    }
+
+    .navImg {
+        width: 5%;
+        height: 5%;
+        margin-left: 3%;
+    }
   }
 
   @media only screen and (max-width: 600px) {
     h1 {
-        font-size: 10vw;
+        font-size: 7vw;
         margin-left: 3%;
         margin-right: 0%;
     }
@@ -80,7 +104,7 @@ html {
     }
     
     b {
-        font-size: 6vw;
+        font-size: 4vw;
     }
 
     input {
@@ -115,6 +139,30 @@ html {
         padding-left: 10%;
         padding-right: 10%;
     }
+
+    .arrowImg {
+        margin-top: 30%;
+        width: 50%;
+        height: 50%;
+    }
+      
+    .arrowImg:active {
+        margin-top: 30%;
+        width: 35%;
+        height: 35%;
+        scale: 0.9;
+    }
+      
+    .arrowBox {
+        text-align: center;
+        display: flex;
+    }
+
+    .navImg {
+        width: 15%;
+        height: 15%;
+        margin-left: 3%;
+    }
   }
 
 body {
@@ -145,12 +193,6 @@ body {
     border-radius: 15px;
     border: 1vw solid;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-}
-
-.navImg {
-    width: 15%;
-    height: 15%;
-    margin-left: 3%;
 }
 
 fieldset {
@@ -195,22 +237,4 @@ button:active {
     bottom: -35%;
     left: 0%;
     background-color: lightblue;
-}
-
-.arrowImg {
-  margin-top: 30%;
-  width: 50%;
-  height: 50%;
-}
-
-.arrowImg:active {
-  margin-top: 30%;
-  width: 35%;
-  height: 35%;
-  scale: 0.9;
-}
-
-.arrowBox {
-  text-align: center;
-  display: flex;
 }
