@@ -1,0 +1,158 @@
+html {
+    /*https://fonts.google.com/specimen/Roboto*/
+    font-family: "Roboto", sans-serif;
+    overflow-y: scroll; overflow-x:hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(to right bottom, #d1c6f3, #e9bcac);
+    background: cover;
+    height: 100%;
+}
+
+.checkBox {
+    height: 7vw;
+    width: 7vw;
+    margin-left: 0;
+}
+
+.checkBoxDiv {
+    float: left;
+}
+
+.aboutUs {
+    margin-top: 5%;
+}
+
+h1 {
+    font-size: 10vw;
+    margin-left: 3%;
+    margin-right: 0%;
+}
+
+.navBox {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 1vw solid;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.navImg {
+    width: 15%;
+    height: 15%;
+    margin-left: 3%;
+}
+
+fieldset {
+    border-radius: 15px;
+    border: 1vw solid;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    padding: 10%;
+}
+
+legend {
+    font-size: 8vw;
+    text-align: center;
+}
+
+#page2 {
+    display: none;
+}
+
+.animation {
+    animation: 1s slide-left;
+  }
+  @keyframes slide-left {
+    from {
+      margin-left: 100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+
+p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 7vw;
+}
+
+b {
+    font-size: 6vw;
+}
+
+.marginText {
+    margin-top: 6vw;
+    margin-bottom: 6vw;
+}
+
+input {
+    /*border: 2px solid black;*/
+    border: 0;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 6vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+input:focus {
+    border-radius: 8px;
+    outline: none;
+}
+
+.link {
+    color: #311e42;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    font-size: 7vw;
+    background-color: darkblue;
+    color: white;
+    border: 0;
+    border-radius: 40px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+button:active {
+    scale: 0.95;
+}
+
+.subContent {
+    margin-left: 0px;
+    position: absolute;
+    bottom: -35%;
+    left: 0%;
+    background-color: lightblue;
+}
+
+.arrowImg {
+  margin-top: 30%;
+  width: 50%;
+  height: 50%;
+}
+
+.arrowImg:active {
+  margin-top: 30%;
+  width: 35%;
+  height: 35%;
+  scale: 0.9;
+}
+
+.arrowBox {
+  text-align: center;
+  display: flex;
+}

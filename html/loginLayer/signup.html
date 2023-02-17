@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/index.css">
+    <script src="../../js/methods.js"></script>
+    <title>Sign Up</title>
+</head>
+<body>
+    <center>
+        <div class="navBox">
+            <img class="navImg" src="../../img/comp_logo.png" alt="">
+            <h1>Finance Master</h1>
+        </div>
+    </center>
+    <fieldset class="animation">
+        <legend>Registrieren</legend>
+        <div id="page1" class="animation">
+            <div><p>Benutzername</p></div>
+            <div><input type="text" id="userName"></div>
+            <div><p>Vorname</p></div>
+            <div><input type="text" id="firstName"></div>
+            <div><p>Nachname</p></div>
+            <div><input type="text" id="lastName"></div>
+            <div><p>Email</p></div>
+            <div><input type="text" id="email"></div>
+            <div class="arrowBox">
+                <div>
+                    <a href="index.html">
+                    <img src="../../img/arrowLeft.png" class="arrowImg" alt=""></a>
+                </div>
+                <div><img src="../../img/arrowRight.png" class="arrowImg" alt="" onclick="switchVisible()"></div>
+            </div>
+        </div>
+
+        <div id="page2" class="animation">
+            <div><p>Passwort</p></div>
+            <div><input type="password" id="password"></div>
+            <div><p>Passwort bestätigen</p></div>
+            <div><input type="text" id="password"></div>
+            <div><p>Klasse [Optional]</p></div>
+            <div><input type="text" id="password"></div>
+            <p>Punkte öffentlich machen [Optional]</p>
+            <div>
+                <input type="checkbox" class="checkBox">
+            </div>
+            <div class="arrowBox">
+                <div>
+                    <img src="../../img/arrowLeft.png" class="arrowImg" alt="" onclick="switchVisible()">
+                </div>
+                <div>
+                    <img src="../../img/arrowRight.png" class="arrowImg" alt="" onclick="switchVisible()">
+                </div>
+            </div>
+        </div>
+    </fieldset>
+</body>
+</html>
