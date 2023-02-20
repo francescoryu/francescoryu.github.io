@@ -296,6 +296,7 @@ body {
 .navBox {
     display: flex;
     text-align: center;
+    justify-content: center;
     background-color: transparent;
     margin-bottom: 10px;
     border-radius: 15px;
