@@ -17,3 +17,17 @@ function makeUserInfoUneditable() {
     document.getElementById("saveButton").disabled = true;
     document.getElementById("editButton").disabled = false;
 }
+
+function createTempButton() {
+        var doc = document;
+        var docFrag = document.createDocumentFragment();
+      
+        for(var x = 0; x < 6; x++){
+          var button = doc.createElement("button");
+          button.className = "quizButton";
+          button.innerText = "QUIZ " + (x + 1);
+          docFrag.appendChild(button);
+        }
+      
+        doc.getElementById("fieldset").appendChild(docFrag);
+      }
