@@ -94,7 +94,7 @@ html {
     }
 
     legend {
-        font-size: 8vw;
+        font-size: 6vw;
         text-align: center;
     }
 
@@ -201,6 +201,12 @@ html {
 
     .userInfoButton:disabled {
         opacity: 0.3;
+    }
+
+    .quizButton {
+        font-size: 5vw;
+        width: 100%;
+        margin: 1vw;
     }
   }
 
