@@ -8,24 +8,37 @@ html {
 
 @media only screen and (min-width: 600px) {
     h1 {
-        font-size: 3vw;
+        font-size: 7vw;
         margin-left: 3%;
         margin-right: 0%;
     }
 
     legend {
-        font-size: 4vw;
+        font-size: 6vw;
         text-align: center;
     }
 
     p {
         margin-top: 10px;
         margin-bottom: 0px;
-        font-size: 3vw;
+        font-size: 5vw;
     }
     
     b {
-        font-size: 2vw;
+        font-size: 4vw;
+    }
+
+    .userInfo {
+        margin-bottom: 2vw;
+    }
+
+    .imgEditUser {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    .imgEditUser:active {
+        scale: 0.9;
     }
 
     input {
@@ -33,7 +46,7 @@ html {
         border: 0;
         border-radius: 20px;
         box-sizing: border-box;
-        font-size: 2vw;
+        font-size: 6vw;
         padding-top: 1vw;
         padding-bottom: 1vw;
         width: 100%;
@@ -50,7 +63,7 @@ html {
         margin-left: 0px;
         margin-right: 0px;
         margin-bottom: 20px;
-        font-size: 4vw;
+        font-size: 7vw;
         background-color: darkblue;
         color: white;
         border: 0;
@@ -63,14 +76,14 @@ html {
 
     .arrowImg {
         margin-top: 30%;
-        width: 20%;
-        height: 30%;
+        width: 50%;
+        height: 50%;
     }
       
     .arrowImg:active {
         margin-top: 30%;
-        width: 15%;
-        height: 15%;
+        width: 35%;
+        height: 35%;
         scale: 0.9;
     }
       
@@ -80,9 +93,49 @@ html {
     }
 
     .navImg {
-        width: 5%;
-        height: 5%;
+        width: 15%;
+        height: 15%;
         margin-left: 3%;
+    }
+
+    .userInfo {
+        display: flex;
+        align-items: center;
+    }
+
+    .editUser {
+        text-align: center;
+    }
+
+    .imgEditUser {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    .imgEditUser:active {
+        scale: 0.9;
+    }
+
+    .marginUserInfo {
+        margin-left: 2vw;
+        min-width: 5vw;
+        padding: 1vw;
+    }
+
+    .userInfoButton {
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        background-color: transparent;
+    }
+
+    .userInfoButton:disabled {
+        opacity: 0.3;
+    }
+
+    .quizButton {
+        font-size: 5vw;
+        width: 100%;
+        margin: 1vw;
     }
   }
 
@@ -110,6 +163,15 @@ html {
 
     .userInfo {
         margin-bottom: 2vw;
+    }
+
+    .imgEditUser {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    .imgEditUser:active {
+        scale: 0.9;
     }
 
     input {
