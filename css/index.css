@@ -9,24 +9,24 @@ html {
 
 @media only screen and (min-width: 600px) {
     h1 {
-        font-size: 7vw;
+        font-size: 3vw;
         margin-left: 3%;
         margin-right: 0%;
     }
 
     legend {
-        font-size: 6vw;
+        font-size: 2vw;
         text-align: center;
     }
 
     p {
         margin-top: 10px;
         margin-bottom: 0px;
-        font-size: 5vw;
+        font-size: 2vw;
     }
     
     b {
-        font-size: 4vw;
+        font-size: 1.3vw;
     }
 
     .userInfo {
@@ -47,7 +47,7 @@ html {
         border: 0;
         border-radius: 20px;
         box-sizing: border-box;
-        font-size: 6vw;
+        font-size: 2vw;
         padding-top: 1vw;
         padding-bottom: 1vw;
         width: 100%;
@@ -64,7 +64,7 @@ html {
         margin-left: 0px;
         margin-right: 0px;
         margin-bottom: 20px;
-        font-size: 7vw;
+        font-size: 2vw;
         background-color: darkblue;
         color: white;
         border: 0;
@@ -94,8 +94,8 @@ html {
     }
 
     .navImg {
-        width: 15%;
-        height: 15%;
+        width: 10%;
+        height: 10%;
         margin-left: 3%;
     }
 
@@ -137,6 +137,50 @@ html {
         font-size: 5vw;
         width: 100%;
         margin: 1vw;
+    }
+
+    .checkBox {
+        height: 7vw;
+        width: 7vw;
+        margin-left: 0;
+    }
+    
+    .checkBoxDiv {
+        float: left;
+    }
+    
+    .aboutUs {
+        margin-top: 5%;
+    }
+    
+    .navBox {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        background-color: transparent;
+        margin-bottom: 10px;
+        border-radius: 15px;
+        border: 0.5vw solid;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    
+    fieldset {
+        border-radius: 15px;
+        border: 0.5vw solid;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+        padding: 10%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        margin-left: 20%;
+        margin-right: 20%;
+        height: 100%;
+    }
+
+    .marginText {
+        margin-top: 1vw;
+        margin-bottom: 1vw;
     }
   }
 
@@ -271,6 +315,45 @@ html {
         width: 100%;
         margin: 1vw;
     }
+
+    .checkBox {
+        height: 7vw;
+        width: 7vw;
+        margin-left: 0;
+    }
+    
+    .checkBoxDiv {
+        float: left;
+    }
+    
+    .aboutUs {
+        margin-top: 5%;
+    }
+    
+    .navBox {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        background-color: transparent;
+        margin-bottom: 10px;
+        border-radius: 15px;
+        border: 1vw solid;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    }
+    
+    fieldset {
+        border-radius: 15px;
+        border: 1vw solid;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+        padding: 10%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    .marginText {
+        margin-top: 6vw;
+        margin-bottom: 6vw;
+    }
   }
 
 body {
@@ -294,26 +377,6 @@ body {
     margin-top: 5%;
 }
 
-.navBox {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    background-color: transparent;
-    margin-bottom: 10px;
-    border-radius: 15px;
-    border: 1vw solid;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-}
-
-fieldset {
-    border-radius: 15px;
-    border: 1vw solid;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-    padding: 10%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
 #page2 {
     display: none;
 }
@@ -329,11 +392,6 @@ fieldset {
       margin-left: 0%;
     }
   }
-
-.marginText {
-    margin-top: 6vw;
-    margin-bottom: 6vw;
-}
 
 .link {
     color: #311e42;
