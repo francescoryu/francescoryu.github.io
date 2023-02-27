@@ -20,6 +20,10 @@
         font-size: 4vw;
     }
 
+    .welcomeText {
+        font-size: 6vw;
+    }
+
     .userInfo {
         margin-bottom: 2vw;
     }

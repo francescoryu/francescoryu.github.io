@@ -5,6 +5,7 @@ html {
     overflow-y: scroll; overflow-x:hidden;
     scroll-behavior: smooth;
     min-height: 100%;
+    justify-content: center;
 }
 
 body {
@@ -12,6 +13,16 @@ body {
     background-size: cover;                     
     background-repeat: no-repeat;
     background-position: center center;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonDiv {
+    text-align: center;
+}
+
+.indexButton {
+    width: 90%;
 }
 
 .checkBox {
