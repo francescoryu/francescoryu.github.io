@@ -162,25 +162,36 @@ html {
         border-radius: 15px;
         border: 0.5vw solid;
         box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-left: 30vw;
+        margin-right: 30vw;
     }
     
     fieldset {
         border-radius: 15px;
         border: 0.5vw solid;
         box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-        padding: 10%;
+        padding: 3%;
         padding-top: 3%;
         padding-bottom: 3%;
-        margin-left: 20%;
-        margin-right: 20%;
-        height: 100%;
+        margin-left: 30vw;
+        margin-right: 30vw;
     }
 
     .marginText {
         margin-top: 1vw;
         margin-bottom: 1vw;
+    }
+
+    .animation {
+        animation: 1s slide-left;
+    }
+    @keyframes slide-left {
+        from {
+          margin-left: 100%;
+        }
+        to {
+          margin-left: 30vw;
+        }
     }
   }
 
@@ -354,6 +365,18 @@ html {
         margin-top: 6vw;
         margin-bottom: 6vw;
     }
+
+    .animation {
+        animation: 1s slide-left;
+    }
+    @keyframes slide-left {
+        from {
+          margin-left: 100%;
+        }
+        to {
+          margin-left: 0%;
+        }
+    }
   }
 
 body {
@@ -380,18 +403,6 @@ body {
 #page2 {
     display: none;
 }
-
-.animation {
-    animation: 1s slide-left;
-  }
-  @keyframes slide-left {
-    from {
-      margin-left: 100%;
-    }
-    to {
-      margin-left: 0%;
-    }
-  }
 
 .link {
     color: #311e42;
