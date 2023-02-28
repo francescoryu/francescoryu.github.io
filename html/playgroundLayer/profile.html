@@ -14,43 +14,25 @@
         <script src="../../js/profile.js"></script>
         <title>Finance Master</title>
     </head>
-<body onload="createTempButton(), makeUserInfoUneditable()">
+    <body onload="createTempButton(), makeUserInfoUneditable()">
         <div class="navBox">
-            <img class="navImg" onClick="window.location.reload();" src="../../img/comp_logo.png" alt="">
-            <h1>Finance Master</h1>
+                <h1>testuser001</h1>
+                <img class="imgEditUser" onClick="window.location.reload();" src="../../img/edit.png" alt="">
         </div>
-    <fieldset class="animation">
-        <legend>[USERNAME]</legend>
-        <div class="userInfo">
-            <b>Email: </b>
-            <b id="email" class="marginUserInfo">[email]</b>
-        </div>
-        <div class="userInfo">
-            <b>Benutzername: </b>
-            <b id="username" class="marginUserInfo">[username]</b>
-        </div>
-        <div class="userInfo">
-            <b>Klasse: </b>
-            <b id="class" class="marginUserInfo">[class]</b>
-        </div>
-        <div class="userInfo">
-            <b>Punkte: </b>
-            <b id="points" class="marginUserInfo">[points]</b>
-        </div>
-        <center>
-            <div class="editUser">
-                <button id="editButton" class="userInfoButton" onclick="makeUserInfoEditable()">
-                    <img src="../../img/edit.png" class="imgEditUser" alt="">
-                </button>
-                <button id="saveButton" class="userInfoButton" onclick="makeUserInfoUneditable()">
-                    <img src="../../img/save.png" class="imgEditUser" alt="">
-                </button>
+        <fieldset>
+            <legend>Suche Freunde</legend>
+            <input type="text"><img src="../../img/lens.png" class="imgEditUser" alt="">
+        </fieldset>
+        <fieldset>
+            <legend>Gruppe</legend>
+            <input type="text">
+            <div class="groupButtonDiv">
+                <button class="groupButton">Beitreten</button>
+                <button class="groupButton">Erstellen</button>
             </div>
-        </center>
-    </fieldset>
-
-    <fieldset id="fieldset">
-        <legend>Quizzes</legend>
-    </fieldset>
-</body>
+        </fieldset>
+        <fieldset id="fieldset">
+            <legend>Quizzes</legend>
+        </fieldset>
+    </body>
 </html>
