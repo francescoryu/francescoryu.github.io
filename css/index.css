@@ -19,6 +19,11 @@ body {
 
 .buttonDiv {
     text-align: center;
+    vertical-align: middle;
+}
+
+.marginLinks {
+    margin-bottom: 5vw;
 }
 
 .indexButton {
@@ -45,6 +50,10 @@ body {
 
 .link {
     color: #311e42;
+}
+
+.linkContent {
+    margin-bottom: 15vw;
 }
 
 button:active {

@@ -10,14 +10,18 @@
         text-align: center;
     }
 
+    a {
+        font-size: 2vw;
+    }
+
+    b {
+        font-size: 1.3vw;
+    }
+
     p {
         margin-top: 10px;
         margin-bottom: 0px;
         font-size: 2vw;
-    }
-    
-    b {
-        font-size: 1.3vw;
     }
 
     a::before {
