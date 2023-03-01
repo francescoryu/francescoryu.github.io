@@ -16,20 +16,15 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
-    overflow: hidden;
 }
 
 .buttonDiv {
     text-align: center;
-    vertical-align: middle;
+    vertical-align: bottom;
 }
 
 .marginLinks {
     margin-bottom: 5vw;
-}
-
-.indexButton {
-    width: 90%;
 }
 
 .checkBox {

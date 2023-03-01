@@ -60,6 +60,10 @@
         outline: none;
     }
 
+    .searchBar {
+
+    }
+
     /*https://moderncss.dev/custom-select-styles-with-pure-css/*/
     /*test*/
 
@@ -104,6 +108,11 @@
 
     .groupButton {
         font-size: 5vw;
+    }
+
+    .indexButton {
+        width: 90%;
+        justify-content: center;
     }
 
     .arrowImg {

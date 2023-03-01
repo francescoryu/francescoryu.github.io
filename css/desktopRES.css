@@ -80,6 +80,11 @@
         padding-right: 10%;
     }
 
+    .indexButton {
+        width: 30%;
+        font-size: 2vw;
+    }
+
     /*https://stackoverflow.com/questions/19246893/increasing-clickable-area-of-a-button*/
 
     .arrowImg {
