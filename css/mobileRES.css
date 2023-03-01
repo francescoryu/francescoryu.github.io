@@ -74,6 +74,7 @@
         padding-bottom: 1vw;
         width: 100%;
         margin-bottom: 5vw;
+        background-color: #ebebeb;
     }
 
     select option {
@@ -84,6 +85,7 @@
         width: 100%;
         box-sizing: border-box;
         padding-left: 0.5vw;
+        background-color: #ebebeb;
     }
 
     button {
