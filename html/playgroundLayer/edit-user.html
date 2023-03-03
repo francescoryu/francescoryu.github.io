@@ -17,25 +17,29 @@
 <body class="animation">
 <div class="navBox">
     <h1>testuser001</h1>
-    <a href="edit-user.html"><img class="img-edit-user" src="../../img/edit.png" alt=""></a>
 </div>
 <fieldset>
-    <legend>Suche Freunde</legend>
-    <input type="text" class="searchBar"><img src="../../img/lens.png" class="img-edit-user" alt="">
-</fieldset>
-<fieldset>
-    <legend>Gruppe</legend>
-    <input type="text">
-    <div>
-        <button class="group-button" type="submit">Beitreten</button>
-        <button class="group-button" type="submit">Erstellen</button>
-    </div>
-</fieldset>
-<fieldset id="fieldset">
-    <legend>Quizzes</legend>
-    {% for quiz in quizzes %}
-    <button class="quizButton">{{ quiz }}</button>
-    {% endfor %}
+    <label for="username">Benutzername</label>
+    <input type="text" id="username" name="username">
+
+    <label for="firstname">Vorname</label>
+    <input type="text" id="firstname" name="firstname">
+
+    <label for="lastname">Nachname</label>
+    <input type="text" id="lastname" name="lastname">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email">
+    <center>
+        <div class="editUser">
+            <button id="editButton" class="userInfoButton">
+                <a href="profile.html"><img src="../../img/arrowLeft.png" class="img-edit-user" alt=""></a>
+            </button>
+            <button id="saveButton" class="userInfoButton">
+                <img src="../../img/save.png" class="img-edit-user" alt="">
+            </button>
+        </div>
+    </center>
 </fieldset>
 </body>
 </html>

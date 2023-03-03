@@ -14,20 +14,20 @@
     <script src="../../js/methods.js"></script>
     <title>Finance Master</title>
 </head>
-<body>
+<body class="animation">
     <center>
         <div class="navBox animation">
             <img class="navImg" src="../../img/comp_logo.png" alt="">
             <h1>Finance Master</h1>
         </div>
     </center>
-    <fieldset class="animation">
+    <fieldset>
         <legend>Login</legend>
-        <div><p>Email/Benutzername</p></div>
-        <div><input type="text"></div>
-        <div><p>Passwort</p></div>
-        <div><input type="password"></div>
-        <center><a href="../playgroundLayer/profile.html"><button>Login</button></a></center>
+        <label for="username">Email/Benutzername</label>
+        <div><input type="text" id="username" name="username"></div>
+        <label for="password">Passwort</label>
+        <div><input type="password" id="password" name="password"></div>
+        <center><a href="../playgroundLayer/profile.html"><button type="submit">Login</button></a></center>
         <div class="buttonDiv">
             <div><a href="forgot_pwd.html" class="link linkContent">Passwort vergessen?</a></div><br>
             <div><a href="signup.html" class="link">Kein Konto?</a></div>

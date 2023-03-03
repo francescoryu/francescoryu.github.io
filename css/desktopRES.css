@@ -14,7 +14,7 @@
         font-size: 1.5vw;
     }
 
-    b {
+    label {
         font-size: 1.5vw;
     }
 
@@ -32,14 +32,14 @@
         margin-bottom: 2vw;
     }
 
-    .imgEditUser {
+    .img-edit-user {
         margin-top: 1vw;
         /*margin-left: 3.5vw;*/
         width: 4vw;
         height: 4vw;
     }
 
-    .imgEditUser:active {
+    .img-edit-user:active {
         scale: 0.9;
     }
 
@@ -93,7 +93,7 @@
         margin-left: 0px;
         margin-right: 0px;
         margin-bottom: 20px;
-        font-size: 2vw;
+        font-size: 1.2vw;
         background-color: darkblue;
         color: white;
         border: 0;
@@ -104,15 +104,12 @@
         padding-right: 10%;
     }
 
-    .groupButtonDiv {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .group-button-div {
+
     }
 
-    .groupButton {
-        font-size: 2vw;
-        display: inline-block;
+    .group-button {
+        font-size: 1.3vw;
     }
 
     .indexButton {
@@ -167,7 +164,7 @@
     }
 
     .quizButton {
-        font-size: 2vw;
+        font-size: 1.3vw;
         width: 95%;
         margin: 1vw;
     }
@@ -215,7 +212,7 @@
             margin-left: 100%;
         }
         to {
-            margin-left: 30%;
+            margin-left: 0%;
         }
     }
 

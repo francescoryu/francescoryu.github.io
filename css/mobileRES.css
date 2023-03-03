@@ -14,8 +14,8 @@
         font-size: 5vw;
     }
 
-    b {
-        font-size: 4vw;
+    label {
+        font-size: 5vw;
     }
 
     p {
@@ -32,14 +32,13 @@
         margin-bottom: 2vw;
     }
 
-    .imgEditUser {
+    .img-edit-user {
         margin-top: 4.5vw;
         margin-left: 3.5vw;
         width: 8vw;
-        height: 8vw;
     }
 
-    .imgEditUser:active {
+    .img-edit-user:active {
         scale: 0.9;
     }
 
@@ -93,7 +92,7 @@
         margin-left: 0px;
         margin-right: 0px;
         margin-bottom: 20px;
-        font-size: 7vw;
+        font-size: 5vw;
         background-color: darkblue;
         color: white;
         border: 0;
@@ -104,15 +103,13 @@
         padding-right: 10%;
     }
 
-    .groupButtonDiv {
-        display: flex;
+    .group-button-div {
         justify-content: center;
-        align-items: center;
     }
 
-    .groupButton {
-        font-size: 5vw;
-        display: inline-block;
+    .group-button {
+        font-size: 4.3vw;
+        text-align: center;
     }
 
     .indexButton {

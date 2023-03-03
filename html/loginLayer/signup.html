@@ -14,24 +14,24 @@
         <script src="../../js/methods.js"></script>
         <title>Finance Master</title>
     </head>
-<body>
+<body class="animation">
     <center>
-        <div class="navBox animation">
+        <div class="navBox">
             <img class="navImg" src="../../img/comp_logo.png" alt="">
             <h1>Finance Master</h1>
         </div>
     </center>
-    <fieldset class="animation">
+    <fieldset>
         <legend>Registrieren</legend>
         <div id="page1">
-            <div><p>Benutzername</p></div>
-            <div><input type="text" id="userName"></div>
-            <div><p>Vorname</p></div>
-            <div><input type="text" id="firstName"></div>
-            <div><p>Nachname</p></div>
-            <div><input type="text" id="lastName"></div>
-            <div><p>Email</p></div>
-            <div><input type="text" id="email"></div>
+            <label for="username">Benutzername</label>
+            <div><input type="text" id="username" name="username"></div>
+            <label for="firstname">Vorname</label>
+            <div><input type="text" id="firstname" name="firstname"></div>
+            <label for="lastname">Nachname</label>
+            <div><input type="text" id="lastname" name="lastname"></div>
+            <label for="email">Email</label>
+            <div><input type="email" id="email" name="email"></div>
             <div class="arrowBox">
                 <div>
                     <a href="login.html">
@@ -42,13 +42,13 @@
         </div>
 
         <div id="page2">
-            <div><p>Passwort</p></div>
-            <div><input type="password" id="password"></div>
-            <div><p>Passwort bestätigen</p></div>
-            <div><input type="text" id="text"></div>
-            <div><p>Klasse [Optional]</p></div>
-            <div><input type="text" id="class"></div>
-            <div><p>Benutzertyp</p></div>
+            <label for="password">Passwort</label>
+            <div><input type="password" id="password" name="password"></div>
+            <label for="password-confirm">Passwort bestätigen</label>
+            <div><input type="password-confirm" id="password-confirm" name="password-confirm"></div>
+            <label for="class">Klasse</label>
+            <div><input type="text" id="class" name="class"></div>
+            <label for="role">Rolle</label>
             <div><select name="role" id="role">
                 <option value="user">Benutzer</option>
                 <option value="editor">Editor</option>
