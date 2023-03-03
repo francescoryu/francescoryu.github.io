@@ -11,31 +11,28 @@
     <link rel="stylesheet" href="../../css/index.css">
     <link rel="stylesheet" href="../../css/desktopRES.css">
     <link rel="stylesheet" href="../../css/mobileRES.css">
-    <script src="../../js/profile.js"></script>
+    <script src="../../js/methods.js"></script>
     <title>Finance Master</title>
 </head>
 <body class="animation">
-<div class="navBox">
-    <h1>testuser001</h1>
-    <a href="edit-user.html"><img class="img-edit-user" src="../../img/edit.png" alt=""></a>
+<div class="nav-box">
+    <img class="nav-img" src="../../img/comp_logo.png" alt="">
+    <h1>Finance Master</h1>
 </div>
 <fieldset>
-    <legend>Suche Freunde</legend>
-    <input type="text" class="searchBar"><img src="../../img/lens.png" class="img-edit-user" alt="">
-</fieldset>
-<fieldset>
-    <legend>Gruppe</legend>
-    <input type="text">
+    <legend>Login</legend>
+    <label for="username">Email/Benutzername</label>
+    <div><input type="text" id="username" name="username"></div>
+    <label for="password">Passwort</label>
+    <div><input type="password" id="password" name="password"></div>
+    <center><a href="../playground-layer/profile.html">
+        <button type="submit">Login</button>
+    </a></center>
     <div>
-        <button class="group-button" type="submit">Beitreten</button>
-        <button class="group-button" type="submit">Erstellen</button>
+        <div><a href="pwd-reset/forgot-pwd.html">Passwort vergessen?</a></div>
+        <br>
+        <div><a href="signup.html">Kein Konto?</a></div>
     </div>
-</fieldset>
-<fieldset id="fieldset">
-    <legend>Quizzes</legend>
-    {% for quiz in quizzes %}
-    <button class="quizButton">{{ quiz }}</button>
-    {% endfor %}
 </fieldset>
 </body>
 </html>

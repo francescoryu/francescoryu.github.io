@@ -112,58 +112,58 @@
         font-size: 1.3vw;
     }
 
-    .indexButton {
+    .index-button {
         width: 90%;
         justify-content: center;
     }
 
-    .arrowImg {
+    .arrow-img {
         margin-top: 10%;
         width: 30%;
     }
 
-    .arrowImg:active {
+    .arrow-img:active {
         width: 30%;
         scale: 0.9;
     }
 
-    .arrowBox {
+    .arrow-box {
         text-align: center;
         display: flex;
     }
 
-    .navImg {
+    .nav-img {
         width: 15%;
         height: 15%;
         margin-left: 3%;
     }
 
-    .userInfo {
+    .user-info {
         display: flex;
         align-items: center;
     }
 
-    .editUser {
+    .edit-user {
         text-align: center;
     }
 
-    .marginUserInfo {
+    .margin-user-info {
         margin-left: 2vw;
         min-width: 5vw;
         padding: 1vw;
     }
 
-    .userInfoButton {
+    .user-info-button {
         margin-top: 1vw;
         margin-bottom: 1vw;
         background-color: transparent;
     }
 
-    .userInfoButton:disabled {
+    .user-info-button:disabled {
         opacity: 0.3;
     }
 
-    .quizButton {
+    .quiz-button {
         font-size: 1.3vw;
         width: 95%;
         margin: 1vw;
@@ -173,7 +173,7 @@
         margin-top: 5%;
     }
 
-    .navBox {
+    .nav-box {
         display: flex;
         text-align: center;
         justify-content: center;
@@ -199,7 +199,7 @@
         margin-right: 30%;
     }
 
-    .marginText {
+    .margin-text {
         margin-top: 6vw;
         margin-bottom: 6vw;
     }
@@ -232,11 +232,19 @@
         scale: 0.95;
     }
 
-    .subContent {
-        margin-left: 0px;
-        position: absolute;
-        bottom: -35%;
-        left: 0%;
-        background-color: lightblue;
+    .digit-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .digit-div input {
+        text-align: center;
+        width: 4.5vw;
+        height: 4.5vw;
+        font-size: 3.4vw;
+        border: 2px solid;
+        border-radius: 1vw;
+        margin: 0.5vw;
     }
 }
