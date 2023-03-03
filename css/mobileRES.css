@@ -105,11 +105,14 @@
     }
 
     .groupButtonDiv {
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .groupButton {
         font-size: 5vw;
+        display: inline-block;
     }
 
     .indexButton {

@@ -6,16 +6,16 @@
     }
 
     legend {
-        font-size: 2vw;
+        font-size: 1.5vw;
         text-align: center;
     }
 
     a {
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
 
     b {
-        font-size: 1.3vw;
+        font-size: 1.5vw;
     }
 
     p {
@@ -24,23 +24,19 @@
         font-size: 2vw;
     }
 
-    a::before {
-            top: -100%;
-            right: -100%;
-            left: -100%;
-            bottom: -100%;
-            z-index: 40;
-            outline: 1px solid red;
+    .welcomeText {
+        font-size: 4vw;
     }
-    
 
     .userInfo {
         margin-bottom: 2vw;
     }
 
     .imgEditUser {
-        width: 3vw;
-        height: 3vw;
+        margin-top: 1vw;
+        /*margin-left: 3.5vw;*/
+        width: 4vw;
+        height: 4vw;
     }
 
     .imgEditUser:active {
@@ -58,10 +54,38 @@
         width: 100%;
         background-color: #ebebeb;
     }
-    
+
     input:focus {
         border-radius: 8px;
         outline: none;
+    }
+
+    .searchBar {
+
+    }
+
+    /*https://moderncss.dev/custom-select-styles-with-pure-css/*/
+    /*test*/
+
+    select {
+        font-size: 1.4vw;
+        border-radius: 20px;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        width: 100%;
+        margin-bottom: 5vw;
+        background-color: #ebebeb;
+    }
+
+    select option {
+        font-size: 1.4vw;
+        border-radius: 20px;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 0.5vw;
+        background-color: #ebebeb;
     }
 
     button {
@@ -80,33 +104,41 @@
         padding-right: 10%;
     }
 
-    .indexButton {
-        width: 30%;
-        font-size: 2vw;
+    .groupButtonDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    /*https://stackoverflow.com/questions/19246893/increasing-clickable-area-of-a-button*/
+    .groupButton {
+        font-size: 2vw;
+        display: inline-block;
+    }
+
+    .indexButton {
+        width: 90%;
+        justify-content: center;
+    }
 
     .arrowImg {
         margin-top: 10%;
-        width: 15%;
+        width: 30%;
     }
-      
+
     .arrowImg:active {
-        width: 10%;
+        width: 30%;
         scale: 0.9;
     }
-      
+
     .arrowBox {
         text-align: center;
         display: flex;
     }
 
     .navImg {
-        width: 5vw;
-        height: 5vw;
+        width: 15%;
+        height: 15%;
         margin-left: 3%;
-        padding-top: 1vw;
     }
 
     .userInfo {
@@ -119,11 +151,14 @@
     }
 
     .marginUserInfo {
-        margin-left: 1vw;
+        margin-left: 2vw;
+        min-width: 5vw;
+        padding: 1vw;
     }
 
     .userInfoButton {
-        margin: 0;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
         background-color: transparent;
     }
 
@@ -132,42 +167,44 @@
     }
 
     .quizButton {
-        font-size: 1.5vw;
-        width: 100%;
+        font-size: 2vw;
+        width: 95%;
         margin: 1vw;
     }
-    
+
     .aboutUs {
         margin-top: 5%;
     }
-    
+
     .navBox {
         display: flex;
         text-align: center;
         justify-content: center;
         background-color: transparent;
         margin-bottom: 10px;
+        margin-left: 30%;
+        margin-right: 30%;
         border-radius: 15px;
         border: 0.5vw solid;
         box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-        margin-left: 30vw;
-        margin-right: 30vw;
     }
-    
+
     fieldset {
+        display: block;
+        text-align: center;
         border-radius: 15px;
         border: 0.5vw solid;
         box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-        padding: 3%;
-        padding-top: 3%;
+        padding: 5%;
+        padding-top: 0.2%;
         padding-bottom: 3%;
-        margin-left: 30vw;
-        margin-right: 30vw;
+        margin-left: 30%;
+        margin-right: 30%;
     }
 
     .marginText {
-        margin-top: 1vw;
-        margin-bottom: 1vw;
+        margin-top: 6vw;
+        margin-bottom: 6vw;
     }
 
     .animation {
@@ -175,39 +212,29 @@
     }
     @keyframes slide-left {
         from {
-          margin-left: 100%;
+            margin-left: 100%;
         }
         to {
-          margin-left: 30vw;
+            margin-left: 30%;
         }
     }
 
-    .checkBox {
-        height: 2vw;
-        width: 2vw;
-        margin-left: 0;
-    }
-    
-    .checkBoxDiv {
-        float: left;
-    }
-    
     .aboutUs {
         margin-top: 5%;
     }
-    
+
     #page2 {
         display: none;
     }
-    
+
     .link {
         color: #311e42;
     }
-    
+
     button:active {
         scale: 0.95;
     }
-    
+
     .subContent {
         margin-left: 0px;
         position: absolute;
@@ -215,4 +242,4 @@
         left: 0%;
         background-color: lightblue;
     }
-  }
+}
