@@ -11,28 +11,25 @@
     <link rel="stylesheet" href="../../css/index.css">
     <link rel="stylesheet" href="../../css/desktopRES.css">
     <link rel="stylesheet" href="../../css/mobileRES.css">
-    <script src="../../js/methods.js"></script>
+    <script src="../../js/profile.js"></script>
     <title>Finance Master</title>
 </head>
 <body class="animation">
 <div class="nav-box">
-    <img class="nav-img" src="../../img/comp_logo.png" alt="">
-    <h1>Finance Master</h1>
+    <h1 id="username">{{ username }}</h1>
 </div>
-<fieldset>
-    <legend>Login</legend>
-    <label for="username">Email/Benutzername</label>
-    <div><input type="text" id="username" name="username"></div>
-    <label for="password">Passwort</label>
-    <div><input type="password" id="password" name="password"></div>
-    <center><a href="../user-layer/profile.html">
-        <button type="submit">Login</button>
-    </a></center>
-    <div>
-        <div><a href="pwd-reset/forgot-pwd.html">Passwort vergessen?</a></div>
-        <br>
-        <div><a href="signup.html">Kein Konto?</a></div>
-    </div>
-</fieldset>
+    <fieldset>
+        <legend>Informationen</legend>
+        <label for="username">Benutzername</label><br>
+        <b>{{ username }}</b>
+        <p></p>
+        <label for="email">Email</label><br>
+        <b id="email">{{ email }}</b>
+        <p></p>
+        <label for="points">Punkte</label><br>
+        <b id="points">{{ points }}</b><br>
+        <p></p>
+        <a href="profile.html"><button type="submit">Zurück</button></a>
+    </fieldset>
 </body>
 </html>

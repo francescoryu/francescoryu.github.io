@@ -18,9 +18,15 @@ body {
     height: 100%;
 }
 
-.buttonDiv {
-    text-align: center;
-    vertical-align: bottom;
+.single-choice-div {
+    justify-content: left;
+    text-align: left;
+    margin-top: 3vw;
+}
+
+.single-choice-div input {
+    width: 10%;
+    display: inline-block;
 }
 
 .marginLinks {

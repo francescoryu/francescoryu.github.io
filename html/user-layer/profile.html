@@ -21,7 +21,9 @@
 </div>
 <fieldset>
     <legend>Suche Freunde</legend>
-    <input type="text" class="searchBar"><img src="../../img/lens.png" class="img-edit-user" alt="">
+    <a href="other-user.html">
+        <input type="text" class="searchBar"><img src="../../img/lens.png" class="img-edit-user" alt="">
+    </a>
 </fieldset>
 <fieldset>
     <legend>Gruppe</legend>
@@ -34,7 +36,7 @@
 <fieldset id="fieldset">
     <legend>Quizzes</legend>
     {% for quiz in quizzes %}
-    <button class="quiz-button">{{ quiz }}</button>
+    <a href="../playground-layer/quiz-layer/quiz.html"><button class="quiz-button">{{ quiz }}</button></a>
     {% endfor %}
 </fieldset>
 </body>
