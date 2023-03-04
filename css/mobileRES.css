@@ -49,10 +49,19 @@
         width: 100%;
         background-color: #ebebeb;
     }
-    
+
     input:focus {
         border-radius: 8px;
         outline: none;
+    }
+
+    textarea {
+        border-radius: 20px;
+        background-color: #ebebeb;
+        font-size: 3.5vw;
+        width: 95%;
+        height: 40vw;
+        padding: 2vw;
     }
 
     .searchBar {
@@ -61,7 +70,6 @@
 
     /*https://moderncss.dev/custom-select-styles-with-pure-css/*/
     /*test*/
-
     select {
         font-size: 6vw;
         border-radius: 20px;
@@ -118,14 +126,14 @@
         width: 50%;
         height: 50%;
     }
-      
+
     .arrow-img:active {
         margin-top: 30%;
         width: 35%;
         height: 35%;
         scale: 0.9;
     }
-      
+
     .arrow-box {
         text-align: center;
         display: flex;
@@ -167,11 +175,16 @@
         width: 95%;
         margin: 1vw;
     }
-    
+
+    .edit-quiz-button {
+        margin: 0;
+        width: 100%;
+    }
+
     .aboutUs {
         margin-top: 5%;
     }
-    
+
     .nav-box {
         display: flex;
         text-align: center;
@@ -182,7 +195,7 @@
         border: 1vw solid;
         box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
     }
-    
+
     fieldset {
         display: block;
         text-align: center;
@@ -202,27 +215,28 @@
     .animation {
         animation: 1s slide-left;
     }
+
     @keyframes slide-left {
         from {
-          margin-left: 100%;
+            margin-left: 100%;
         }
         to {
-          margin-left: 0%;
+            margin-left: 0%;
         }
     }
-    
+
     .aboutUs {
         margin-top: 5%;
     }
-    
+
     #page2 {
         display: none;
     }
-    
+
     .link {
         color: #311e42;
     }
-    
+
     button:active {
         scale: 0.95;
     }
@@ -242,4 +256,9 @@
         border-radius: 2vw;
         margin: 3vw;
     }
-  }
+
+    .edit-quiz-link {
+        display: inline-block;
+        width: 95%;
+    }
+}

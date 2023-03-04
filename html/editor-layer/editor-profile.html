@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--"#b4d0d4" TEST123-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/index.css">
+    <link rel="stylesheet" href="../../css/desktopRES.css">
+    <link rel="stylesheet" href="../../css/mobileRES.css">
+    <script src="../../js/profile.js"></script>
+    <title>Finance Master</title>
+</head>
+<body class="animation">
+<div class="nav-box">
+    <h1>testuser001</h1>
+    <a href="edit-user.html"><img class="img-edit-user" src="../../img/edit.png" alt=""></a>
+</div>
+<fieldset>
+    <legend>Suche Freunde</legend>
+    <a href="../user-layer/edit-user.html">
+        <input type="text" class="searchBar"><img src="../../img/lens.png" class="img-edit-user" alt="">
+    </a>
+</fieldset>
+<fieldset>
+    <legend>Gruppe</legend>
+    <input type="text">
+    <div>
+        <button class="group-button" type="submit">Beitreten</button>
+        <button class="group-button" type="submit">Erstellen</button>
+    </div>
+</fieldset>
+<fieldset id="fieldset">
+    <legend>Quizzes</legend>
+    {% for quiz in quizzes %}
+    <a href="../playground-layer/quiz-layer/quiz.html">
+        <button class="quiz-button">{{ quiz }}</button>
+    </a>
+    {% endfor %}
+</fieldset>
+<fieldset id="fieldset-own-quizzes">
+    <legend>Suche eigenes Quiz</legend>
+    <a href="../playground-layer/quiz-layer/quiz-edit.html">
+        <input type="text" class="searchBar"><img src="../../img/lens.png" class="img-edit-user" alt="">
+    </a><br>
+    <a href="../playground-layer/quiz-layer/quiz.html"><button id="create-quiz">Quiz erstellen</button></a>
+</fieldset>
+</body>
+</html>
