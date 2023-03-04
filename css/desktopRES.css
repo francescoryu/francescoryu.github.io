@@ -247,9 +247,4 @@
         border-radius: 1vw;
         margin: 0.5vw;
     }
-
-    form .single-choice-div {
-        display: inline-block;
-        margin-right: 20px;
-    }
 }

@@ -18,6 +18,31 @@
 <div class="nav-box">
     <h1 id="quizname">{{ quizname }}</h1>
 </div>
-    
+<fieldset>
+    <legend id="question-number">{{ question-number }}</legend>
+    <b>{{ quiz-question }} Lorem ipsum dolor sit amet, consectetur adipiscing elit? Quisque hendrerit erat et purus
+        molestie, ac ullamcorper sapien tristique</b>
+    <p></p>
+    <form>
+        <div class="single-choice-div">
+            <input type="checkbox" id="option1" name="quiz-option" value="option1">
+            <label for="option1">{{ option1 }} Lorem ipsum dolor sit amet</label><br>
+        </div>
+        <div class="single-choice-div">
+            <input type="checkbox" id="option2" name="quiz-option" value="option2">
+            <label for="option2">{{ option2 }} Consectetur adipiscing elit.</label><br>
+        </div>
+        <div class="single-choice-div">
+            <input type="checkbox" id="option3" name="quiz-option" value="option3">
+            <label for="option3">{{ option3 }} Suspendisse potenti.</label><br>
+        </div>
+        <div class="single-choice-div">
+            <input type="checkbox" id="option4" name="quiz-option" value="option4">
+            <label for="option4">{{ option4 }} Vestibulum ante ipsum primis</label><br>
+        </div>
+        <button>Zurück</button>
+        <button>Weiter</button>
+    </form>
+</fieldset>
 </body>
 </html>
