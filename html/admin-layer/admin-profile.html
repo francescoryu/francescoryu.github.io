@@ -17,37 +17,28 @@
 <body class="animation">
 <div class="nav-box">
     <h1>testuser001</h1>
-    <a href="edit-user.html"><img class="img-edit-user" src="../../img/edit.png" alt=""></a>
+    <a href="../user-layer/edit-user.html"><img class="img-edit-user" src="../../img/edit.png" alt=""></a>
 </div>
 <fieldset>
-    <legend>Suche Freunde</legend>
+    <legend>Suche Benutzer</legend>
     <input type="text" class="searchBar">
-    <a href="other-user.html">
+    <a href="../user-layer/other-user.html">
         <img src="../../img/lens.png" class="img-edit-user" alt="">
     </a>
 </fieldset>
 <fieldset>
-    <legend>Gruppe</legend>
-    <input type="text">
-    <div>
-        <a href="" type="submit">
-            <button class="group-button" type="submit">Beitreten</button>
-        </a>
-        <a href="" type="submit">
-            <button class="group-button" type="submit">Erstellen</button>
-        </a>
-        <a href="group-ranking.html" type="submit">
-            <button class="group-button" type="submit">Rangliste</button>
-        </a>
-    </div>
-</fieldset>
-<fieldset id="fieldset">
-    <legend>Quizzes</legend>
-    {% for quiz in quizzes %}
-    <a href="../playground-layer/quiz-layer/quiz.html">
-        <button class="quiz-button">{{ quiz }}</button>
+    <legend>Suche Gruppe</legend>
+    <input type="text" class="searchBar">
+    <a href="../user-layer/other-user.html">
+        <img src="../../img/lens.png" class="img-edit-user" alt="">
     </a>
-    {% endfor %}
+</fieldset>
+<fieldset>
+    <legend>Suche Quiz</legend>
+    <input type="text" class="searchBar">
+    <a href="../user-layer/other-user.html">
+        <img src="../../img/lens.png" class="img-edit-user" alt="">
+    </a>
 </fieldset>
 </body>
 </html>
