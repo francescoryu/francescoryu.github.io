@@ -18,20 +18,25 @@
 <div class="nav-box">
     <h1 id="quizname">{{ quizname }}</h1>
 </div>
-    <fieldset>
-        <legend>Quiz ändern</legend>
-        <b>{{ username }}</b><br>
-            <div class="group-button">
-                <a href="selected-quiz-view.html" class="" id="edit-quiz" type="submit">
-                    <button class="edit-quiz-link">Bearbeiten</button>
-                </a>
-                <a href="" class="" id="delete-quiz" type="submit">
-                    <button class="edit-quiz-link">Löschen</button>
-                </a>
-                <a href="editor-profile.html" class="">
-                    <button class="edit-quiz-link">Zurück</button>
-                </a>
-            </div>
-    </fieldset>
+<fieldset>
+    <legend>Frage erstellen</legend>
+    <label for="question">Frage</label>
+    <input type="text" id="question">
+    <p></p>
+    <label for="answers">Antwort(en)</label>
+    <div id="answers">
+        <input type="text" id="answer1">
+        <p></p>
+        <input type="text" id="answer2">
+        <p></p>
+        <input type="text" id="answer3">
+        <p></p>
+        <input type="text" id="answer4">
+        <p></p>
+    </div>
+    <a href="editor-question-type.html"><button class="quiz-button">Speichern</button></a>
+    <a href="editor-profile.html"><button class="quiz-button">Beenden/Fertigstellen</button></a>
+    <a href="editor-question-type.html"><button class="quiz-button">Zurück</button></a>
+</fieldset>
 </body>
 </html>

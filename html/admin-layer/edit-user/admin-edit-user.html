@@ -11,27 +11,20 @@
     <link rel="stylesheet" href="../../../css/index.css">
     <link rel="stylesheet" href="../../../css/desktopRES.css">
     <link rel="stylesheet" href="../../../css/mobileRES.css">
-    <script src="../../../js/methods.js"></script>
+    <script src="../../../js/profile.js"></script>
     <title>Finance Master</title>
 </head>
-<body onload="loadContent()" class="animation">
+<body class="animation">
 <div class="nav-box">
-    <h1 id="quizname">{{ quizname }}</h1>
+    <h1>{{ username }}</h1>
 </div>
 <fieldset>
-    <legend>Beschreibung</legend>
-    <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum magna nec libero pretium</b><br>
+    <legend>Aktionen</legend>
+    <a href="admin-user-view.html"><button class="quiz-button">Bearbeiten</button></a>
     <p></p>
-    <label for="max-points">Max. Punkte:</label><br>
-    <b id="max-points">{{ max-points }}</b><br>
+    <a href=""><button class="quiz-button">Löschen</button></a>
     <p></p>
-    <label for="question-length">Max. Punkte:</label><br>
-    <b id="question-length">{{ question-length }}</b><br>
-    <p></p>
-    <label for="likes">Anzahl Likes:</label><br>
-    <b id="likes">{{ likes }}</b><br>
-    <a href="../../user-layer/user-profile.html"><button type="submit">Zurück</button></a>
-    <a href=""><button type="submit">Aufgabe 1</button></a>
+    <a href="../admin-profile.html"><button class="quiz-button">Zurück</button></a>
 </fieldset>
 </body>
 </html>

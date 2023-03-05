@@ -19,19 +19,15 @@
     <h1 id="quizname">{{ quizname }}</h1>
 </div>
 <fieldset>
-    <legend>Beschreibung</legend>
-    <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum magna nec libero pretium</b><br>
-    <p></p>
-    <label for="max-points">Max. Punkte:</label><br>
-    <b id="max-points">{{ max-points }}</b><br>
-    <p></p>
-    <label for="question-length">Max. Punkte:</label><br>
-    <b id="question-length">{{ question-length }}</b><br>
-    <p></p>
-    <label for="likes">Anzahl Likes:</label><br>
-    <b id="likes">{{ likes }}</b><br>
-    <a href="../../user-layer/user-profile.html"><button type="submit">Zurück</button></a>
-    <a href=""><button type="submit">Aufgabe 1</button></a>
+    <legend>Quiz bearbeiten</legend>
+    <label for="quiz-title">Titel</label>
+    <input type="text" id="quiz-title" placeholder="{{ quizname }}">
+    <label for="quiz-description">Beschreibung</label><br>
+    <textarea id="quiz-description">{{ quiz-description }}</textarea>
+    <button id="save-quiz-changes" class="edit-quiz-link">Speichern</button>
+    <a href="admin-edit-quiz.html">
+        <button class="edit-quiz-link">Zurück</button>
+    </a>
 </fieldset>
 </body>
 </html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--"#b4d0d4" TEST123-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../../css/index.css">
+  <link rel="stylesheet" href="../../../css/desktopRES.css">
+  <link rel="stylesheet" href="../../../css/mobileRES.css">
+  <script src="../../../js/methods.js"></script>
+  <title>Finance Master</title>
+</head>
+<body onload="loadContent()" class="animation">
+<div class="nav-box">
+  <h1 id="quizname">{{ quizname }}</h1>
+</div>
+<fieldset>
+  <legend>Quiz ändern</legend>
+  <b>Ersteller: {{ username }}</b><br>
+  <div class="group-button">
+    <a href="admin-quiz-view.html" class="" id="edit-quiz" type="submit">
+      <button class="edit-quiz-link">Bearbeiten</button>
+    </a>
+    <a href="" class="" id="delete-quiz" type="submit">
+      <button class="edit-quiz-link">Löschen</button>
+    </a>
+    <a href="../admin-profile.html" class="">
+      <button class="edit-quiz-link">Zurück</button>
+    </a>
+  </div>
+</fieldset>
+</body>
+</html>

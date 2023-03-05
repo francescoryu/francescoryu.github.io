@@ -105,10 +105,14 @@
         padding-bottom: 2%;
         padding-left: 10%;
         padding-right: 10%;
+        border: none;
+        outline: none;
     }
 
     .group-button-div {
         justify-content: center;
+        border: none;
+        outline: none;
     }
 
     .group-button {
