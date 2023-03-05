@@ -202,9 +202,17 @@
         border-radius: 15px;
         border: 1vw solid;
         box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-        padding: 10%;
-        padding-top: 3%;
-        padding-bottom: 3%;
+        padding: 3% 10%;
+    }
+
+    .ranking-fieldset {
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+
+    .group-ranking {
+        justify-content: left;
+        text-align: left;
     }
 
     .margin-text {

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--"#b4d0d4" TEST123-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/index.css">
+    <link rel="stylesheet" href="../../css/desktopRES.css">
+    <link rel="stylesheet" href="../../css/mobileRES.css">
+    <script src="../../js/methods.js"></script>
+    <title>Finance Master</title>
+</head>
+<body onload="loadContent()" class="animation">
+<div class="nav-box">
+    <h1 id="quizname">{{ quizname }}</h1>
+</div>
+<fieldset>
+    <legend>Fragetyp</legend>
+    <form>
+        <div class="single-choice-div">
+            <input type="radio" id="option1" name="question-type" value="option1">
+            <label for="option1">Singlechoice</label><br>
+        </div>
+        <div class="single-choice-div">
+            <input type="radio" id="option2" name="question-type" value="option2">
+            <label for="option2">Multiplechoice</label><br>
+        </div>
+        <div class="single-choice-div">
+            <input type="radio" id="option3" name="question-type" value="option3">
+            <label for="option3">Einfache Antwort</label><br>
+        </div>
+        <p></p>
+    </form>
+    <a href="quiz-answer.html" type="submit">
+        <button class="quiz-button">Speichern</button>
+    </a>
+    <a href="selected-quiz-view.html" type="submit">
+        <button class="quiz-button">Zurück</button>
+    </a>
+</fieldset>
+</body>
+</html>
